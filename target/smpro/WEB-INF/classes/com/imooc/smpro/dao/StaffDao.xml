@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.smpro.dao.StaffDao">
+    <resultMap id="resultMap" type="com.imooc.smpro.bean.Staff">
+        <id property="id" column="id" javaType="Integer"/>
+        <result property="username" column="username" javaType="String"/>
+        <result property="password" column="password" javaType="String"/>
+        <result property="state" column="state" javaType="String"/>
+        <result property="departmentNo" column="department_No" javaType="Integer"/>
+        <result property="employeeName" column="employee_Name" javaType="String"/>
+        <result property="sex" column="sex" javaType="String"/>
+        <result property="idCard" column="id_Card"  javaType="String"/>
+        <result property="workTime" column="work_time" javaType="Date"/>
+        <result property="leaveTime" column="leave_time" javaType="Date"/>
+        <result property="bornTime" column="born_time" javaType="Date"/>
+        <result property="remark" column="remark" javaType="String"/>
+        <association property="department" column="department_No" javaType="Department" select="com.imooc.smpro.dao.DepartmentDao.selectById"></association>
+    </resultMap>
+
+    <insert id="insert" parameterType="Staff" useGeneratedKeys="true">
+		insert into staff(username,password,state,department_No,employee_Name,sex,id_Card,work_time,leave_time,born_time,remark)
+		values (#{username},#{password},#{state},#{departmentNo},#{employeeName},#{sex},#{idCard},#{workTime},#{leaveTime},#{bornTime},#{remark})
+	</insert>
+    <!--<update id="update" parameterType="Staff" >-->
+		<!--update staff set username=#{username},password=#{password},-->
+		<!--state=#{state},department_No=#{departmentNo},employee_Name=#{employeeName},-->
+		<!--sex=#{sex},id_Card=#{idCard},work_time=#{workTime},leave_time=#{leaveTime},-->
+		<!--born_time=#{bornTime},remark={remark} where id =#{id}-->
+	<!--</update>-->
+
+    <update id="update" parameterType="Staff">
+        update staff set username=#{username},password=#{password},state=#{state},
+        department_No=#{departmentNo},employee_Name=#{employeeName},sex=#{sex},id_Card=#{idCard},
+        work_time=#{workTime},leave_time=#{leaveTime},born_time=#{bornTime},remark=#{remark}
+         where id=#{id}
+    </update>
+    <delete id="delete" parameterType="Integer" >
+		delete from staff where id =#{id}
+	</delete>
+    <select id="selectById" parameterType="Integer" resultMap="resultMap">
+		select * from staff where id=#{id}
+	</select>
+    <select id="selectAll" resultMap="resultMap">
+        select * from staff
+    </select>
+</mapper>

@@ -112,8 +112,11 @@
       <file leaf-file-name="spring.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="21" column="80" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="80" />
+            <state relative-caret-position="443">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="n#bean#2;n#beans#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,6 +178,9 @@
       <find>oprTime</find>
       <find>operator</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/webapp/staff_list.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -256,10 +262,11 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="839" />
-    <option name="width" value="1728" />
+    <option name="x" value="645" />
+    <option name="width" value="1922" />
     <option name="height" value="1400" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -547,16 +554,15 @@
       <updated>1539243043625</updated>
       <workItem from="1539243048102" duration="7496000" />
       <workItem from="1539307009214" duration="17848000" />
-      <workItem from="1539565655573" duration="23143000" />
+      <workItem from="1539565655573" duration="24371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48487000" />
+    <option name="totallyTimeSpent" value="49715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="839" y="0" width="1728" height="1400" extended-state="0" />
-    <editor active="true" />
+    <frame x="645" y="0" width="1922" height="1400" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -565,7 +571,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17266187" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.1546724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -576,11 +582,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38083926" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38114104" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20923261" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18743287" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32858273" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1127,8 +1133,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="21" column="80" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="80" />
+        <state relative-caret-position="443">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="n#bean#2;n#beans#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
